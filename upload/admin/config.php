@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://saladetreinamento:8888/upload/admin/');
-define('HTTP_CATALOG', 'http://saladetreinamento:8888/upload/');
+define('HTTP_SERVER', 'http://saladetreinamento:8888/saladetreinamento/upload/admin/');
+define('HTTP_CATALOG', 'http://saladetreinamento:8888/saladetreinamento/upload/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://saladetreinamento:8888/upload/admin/');
-define('HTTPS_CATALOG', 'http://saladetreinamento:8888/upload/');
+define('HTTPS_SERVER', 'http://saladetreinamento:8888/saladetreinamento/upload/admin/');
+define('HTTPS_CATALOG', 'http://saladetreinamento:8888/saladetreinamento/upload/');
 
 $pathName = __DIR__.'/';
 // DIR
@@ -24,8 +24,8 @@ define('DIR_CATALOG', dirname($pathName).'/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'root');
-define('DB_DATABASE', 'saladetreinamento');
+define('DB_HOSTNAME', 'us-cdbr-iron-east-01.cleardb.net');
+define('DB_USERNAME', 'b49e2cee6fdf2a');
+define('DB_PASSWORD', '2efaba1b');
+define('DB_DATABASE', 'heroku_51b266ff55873a4');
 define('DB_PREFIX', 'oc_');
